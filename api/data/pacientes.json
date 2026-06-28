@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nome": "Rex",
+    "especie": "Cachorro",
+    "raca": "Labrador",
+    "idade": 3,
+    "peso_kg": 28.5,
+    "tutor": "Carlos Souza",
+    "telefone_tutor": "(47) 99123-4567",
+    "ultima_consulta": "2026-05-10",
+    "status": "ativo"
+  },
+  {
+    "id": 2,
+    "nome": "Nina",
+    "especie": "Gato",
+    "raca": "Maine Coon",
+    "idade": 1,
+    "peso_kg": 1.5,
+    "tutor": "Pedro Silva",
+    "telefone_tutor": "(81) 99334-5917",
+    "ultima_consulta": "2026-05-21",
+    "status": "ativo"
+  },
+  {
+    "id": 3,
+    "nome": "Manolito",
+    "especie": "Gato",
+    "raca": "Siamês",
+    "idade": 2,
+    "peso_kg": 4.6,
+    "tutor": "Pedro Oliveira",
+    "telefone_tutor": "(94) 97123-8562",
+    "ultima_consulta": "2026-05-05",
+    "status": "ativo"
+  }, 
+  {
+    "id": 4,
+    "nome": "Bolacha",
+    "especie": "Cachorro",
+    "raca": "Sem Raça Definida",
+    "idade": 4,
+    "peso_kg": 9.6,
+    "tutor": "Olivia Santos",
+    "telefone_tutor": "(86) 97391-2276",
+    "ultima_consulta": "2026-05-08",
+    "status": "ativo"
+  }, 
+  {
+    "id": 5,
+    "nome": "Toddy",
+    "especie": "Cachorro",
+    "raca": "Golden Retriever",
+    "idade": 5,
+    "peso_kg": 32.1,
+    "tutor": "Fernanda Lima",
+    "telefone_tutor": "(51) 99802-3341",
+    "ultima_consulta": "2026-04-30",
+    "status": "ativo"
+  },
+  {
+    "id": 6,
+    "nome": "Mel",
+    "especie": "Cachorro",
+    "raca": "Beagle",
+    "idade": 2,
+    "peso_kg": 11.3,
+    "tutor": "Rafael Mendes",
+    "telefone_tutor": "(31) 98745-6612",
+    "ultima_consulta": "2026-05-15",
+    "status": "ativo"
+  },
+  {
+    "id": 7,
+    "nome": "Luna",
+    "especie": "Gato",
+    "raca": "Persa",
+    "idade": 6,
+    "peso_kg": 5.2,
+    "tutor": "Beatriz Costa",
+    "telefone_tutor": "(11) 97654-8823",
+    "ultima_consulta": "2026-03-18",
+    "status": "inativo"
+  },
+  {
+    "id": 8,
+    "nome": "Thor",
+    "especie": "Cachorro",
+    "raca": "Rottweiler",
+    "idade": 4,
+    "peso_kg": 45.0,
+    "tutor": "Marcelo Ferreira",
+    "telefone_tutor": "(21) 99211-7743",
+    "ultima_consulta": "2026-05-27",
+    "status": "ativo"
+  },
+  {
+    "id": 9,
+    "nome": "Pipa",
+    "especie": "Coelho",
+    "raca": "Mini Lop",
+    "idade": 1,
+    "peso_kg": 1.8,
+    "tutor": "Amanda Rocha",
+    "telefone_tutor": "(48) 98521-3390",
+    "ultima_consulta": "2026-04-12",
+    "status": "ativo"
+  },
+  {
+    "id": 10,
+    "nome": "Simba",
+    "especie": "Gato",
+    "raca": "Sem Raça Definida",
+    "idade": 3,
+    "peso_kg": 4.1,
+    "tutor": "Juliana Neves",
+    "telefone_tutor": "(62) 99033-5587",
+    "ultima_consulta": "2026-05-02",
+    "status": "ativo"
+  } 
+]
