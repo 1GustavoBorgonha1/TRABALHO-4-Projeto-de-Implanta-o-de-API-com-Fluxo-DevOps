@@ -1,0 +1,39 @@
+# Workflow de Integração Continua
+# Executa automaticamente a cada push ou pull request na branch main
+name: CI - Testes Automaticos
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  testes:
+    # Define o SO da maquina virtual de testes do Github
+    runs-on: ubuntu-latest
+
+    steps:
+      # Faz o download do rep. atual para a maquina virtual
+      - name: Checkout do codigo
+        uses: actions/checkout@v4
+
+      # Instala o Python
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Instala as bibliotecas listadas no requirements.txt
+      - name: Instalar dependencias
+        run: pip install -r api/requirements.txt
+
+      # Executa os testes unitarios
+      - name: Executar testes com pytest
+        run: pytest api/testes/ -v
+
+      # Gera relatorio de cobertura
+      - name: Verificar cobertura de testes
+        run: |
+          pip install pytest-cov
+          pytest api/testes/ --cov=api --cov-report=term-missing
